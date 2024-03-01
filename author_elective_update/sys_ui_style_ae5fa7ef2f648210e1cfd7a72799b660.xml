@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="DELETE">
+        <alt/>
+        <element>user_input</element>
+        <name>x_58872_needit_sfgh</name>
+        <style>color: #FFFF00</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 15:24:51</sys_created_on>
+        <sys_id>ae5fa7ef2f648210e1cfd7a72799b660</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_sfgh</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_style_ae5fa7ef2f648210e1cfd7a72799b660</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 15:24:51</sys_updated_on>
+        <themed_style/>
+        <value>font-size: 80px</value>
+    </sys_ui_style>
+    <sys_translated_text action="DELETE" query="documentkey=ae5fa7ef2f648210e1cfd7a72799b660"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>fd071312db8353444f035d00cf9619b7</instance_id>
+        <instance_name>dev63704</instance_name>
+        <name>sys_ui_style_ae5fa7ef2f648210e1cfd7a72799b660</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style"><sys_ui_style action="INSERT_OR_UPDATE"><alt/><element>user_input</element><name>x_58872_needit_sfgh</name><style>color: #FFFF00</style><sys_class_name>sys_ui_style</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-01 15:24:51</sys_created_on><sys_id>ae5fa7ef2f648210e1cfd7a72799b660</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit_sfgh</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ui_style_ae5fa7ef2f648210e1cfd7a72799b660</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-01 15:24:51</sys_updated_on><themed_style/><value>font-size: 80px</value></sys_ui_style><sys_translated_text action="delete_multiple" query="documentkey=ae5fa7ef2f648210e1cfd7a72799b660"/></record_update>]]></payload>
+        <payload_hash>-1241657390</payload_hash>
+        <record_name>x_58872_needit_sfgh</record_name>
+        <reverted_from/>
+        <source>da7b6b6b2f648210e1cfd7a72799b6b7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 15:24:52</sys_created_on>
+        <sys_id>a5afa3ef2f648210e1cfd7a72799b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dfa9e42890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 15:24:52</sys_updated_on>
+        <type>Style</type>
+        <update_guid>e9afa3ef0964821010919ea8c875563c</update_guid>
+        <update_guid_history>e9afa3ef0964821010919ea8c875563c:-1241657390</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-01 15:26:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_style">sys_ui_style</sys_db_object>
+        <sys_id>be81a4d84aa545c2b2bdfe15277bc5e4</sys_id>
+        <sys_metadata>ae5fa7ef2f648210e1cfd7a72799b660</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_sfgh</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">232fa3ef2f648210e1cfd7a72799b628</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_style_ae5fa7ef2f648210e1cfd7a72799b660</sys_update_name>
+        <sys_update_version display_value="sys_ui_style_ae5fa7ef2f648210e1cfd7a72799b660">a5afa3ef2f648210e1cfd7a72799b63d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 15:26:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
