@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Sets the options for the "What needed" field based on the current value of the Request Type field</description>
+        <field>u_request_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set "What needed" option by Request Type</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   if (newValue === 'hr') {
+	g_form.removeOption('what_needed', 'facilities1');
+	g_form.removeOption('what_needed', 'facilities2');
+	g_form.removeOption('what_needed', 'legal1'); 
+	g_form.removeOption('what_needed', 'legal2');
+   }
+	else if (newValue === 'facilities') {
+	g_form.removeOption('what_needed', 'hr1');
+	g_form.removeOption('what_needed', 'hr2');
+	g_form.removeOption('what_needed', 'legal1'); 
+	g_form.removeOption('what_needed', 'legal2');
+   }
+	else if (newValue === 'legal') {
+	g_form.removeOption('what_needed', 'facilities1');
+	g_form.removeOption('what_needed', 'facilities2');
+	g_form.removeOption('what_needed', 'hr1'); 
+	g_form.removeOption('what_needed', 'hr2');
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 16:11:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28a353a42f388210e1cfd7a72799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set "What needed" option by Request Type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_28a353a42f388210e1cfd7a72799b66b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 16:11:07</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>fd071312db8353444f035d00cf9619b7</instance_id>
+        <instance_name>dev63704</instance_name>
+        <name>sys_script_client_28a353a42f388210e1cfd7a72799b66b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Sets the options for the "What needed" field based on the current value of the Request Type field&lt;/description&gt;&lt;field&gt;u_request_type&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set "What needed" option by Request Type&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   if (newValue === 'hr') {
+	g_form.removeOption('what_needed', 'facilities1');
+	g_form.removeOption('what_needed', 'facilities2');
+	g_form.removeOption('what_needed', 'legal1'); 
+	g_form.removeOption('what_needed', 'legal2');
+   }
+	else if (newValue === 'facilities') {
+	g_form.removeOption('what_needed', 'hr1');
+	g_form.removeOption('what_needed', 'hr2');
+	g_form.removeOption('what_needed', 'legal1'); 
+	g_form.removeOption('what_needed', 'legal2');
+   }
+	else if (newValue === 'legal') {
+	g_form.removeOption('what_needed', 'facilities1');
+	g_form.removeOption('what_needed', 'facilities2');
+	g_form.removeOption('what_needed', 'hr1'); 
+	g_form.removeOption('what_needed', 'hr2');
+   }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-04 16:11:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;28a353a42f388210e1cfd7a72799b66b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set "What needed" option by Request Type&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_28a353a42f388210e1cfd7a72799b66b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-04 16:11:07&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1717619448</payload_hash>
+        <record_name>Set "What needed" option by Request Type</record_name>
+        <reverted_from/>
+        <source>da7b6b6b2f648210e1cfd7a72799b6b7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 16:11:07</sys_created_on>
+        <sys_id>d807d3682f388210e1cfd7a72799b6a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e0a3bae410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 16:11:07</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>1007d368133882105d90f2c6bd59e1a5</update_guid>
+        <update_guid_history>1007d368133882105d90f2c6bd59e1a5:1717619448</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 16:13:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0d219a7b08ea479690254f303ab61369</sys_id>
+        <sys_metadata>28a353a42f388210e1cfd7a72799b66b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set "What needed" option by Request Type</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">e7278c7b2fa48210e1cfd7a72799b605</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_28a353a42f388210e1cfd7a72799b66b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_28a353a42f388210e1cfd7a72799b66b">d807d3682f388210e1cfd7a72799b6a5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 16:13:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
